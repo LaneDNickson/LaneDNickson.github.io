@@ -1,9 +1,9 @@
 h1 {
-	color: orange;
-	background: blue;
-	text-align: center;
-	font-family: Lucida Console;
-	border: 5px solid orange;
+	color: black;
+	background: white ;
+	/*text-align: center;*/
+	font-family: Open Sans;
+	border: 5px solid black;
 }
 
 h2 {
@@ -18,7 +18,7 @@ h3 {
 }
 	
 body {
-	background: black;
+	background: white;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
