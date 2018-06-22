@@ -10,17 +10,20 @@ h2 {
 	color: white;
 	/*light blue*/
 	background: #3498DB;
+	font-family: Open Sans;
 }
 
 h3 {
 	color: black;
 	background: white;
+	font-family: Open Sans;
 }
 	
 body {
 	background: white;
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: Open Sans;
 }
 
 p {
