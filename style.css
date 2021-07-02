@@ -10,6 +10,11 @@ html, body{
     padding: 0;
 }
 
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 .nav ul, h1, li {
     margin: 0;
 }
@@ -38,6 +43,7 @@ html, body{
     background-size: cover;
 }
 .content-section {
+    animation: fadeIn 0.25s;
     margin: 1em;
 }
 
@@ -49,13 +55,12 @@ html, body{
 .button {
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 12px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   margin: 4px 2px;
-  transition-duration: 0.4s;
   cursor: pointer;
 }
 
@@ -64,10 +69,17 @@ html, body{
   color: white;
 }
 
+
 .button1:hover {
   background-color: #c48fff;
   color: white;
 }
+
+.gamegif {
+    vertical-align: top;
+    display: inline-block;
+}
+
 
 h1 {
 	color: white;
@@ -78,10 +90,6 @@ h1 {
 h2 {
 	color: black;
 	/*text-align: center;*/
-}
-
-th {
-  text-align: left;
 }
 
 #page-container {
@@ -95,6 +103,10 @@ th {
 
 #footer a {
     color: white;
+}
+
+#foother th {
+  text-align: left;
 }
 
 #footer {
