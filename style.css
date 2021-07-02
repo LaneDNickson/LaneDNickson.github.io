@@ -1,38 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Share Tech', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul, h1, li {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.main-header {
+    background: #853ed4;
+    background-size: cover;
+}
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 50%;
+    
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #853ed4;
+  color: white;
+}
+
+.button1:hover {
+  background-color: #c48fff;
+  color: white;
+}
+
 h1 {
-	color: black;
-	background: white ;
+	color: white;
+    padding: .2em;
 	/*text-align: center;*/
-	font-family:  "Comic Sans MS", cursive, sans-serif;
-	border: 5px solid purple;
 }
 
 h2 {
-	color: white;
-	/*light blue*/
-	background: purple;
-	font-family: Open Sans;
-}
-
-h3 {
 	color: black;
-	background: white;
-	font-family: Open Sans;
-}
-	
-body {
-	background: white;
-	background-repeat: no-repeat;
-	background-size: cover;
-	font-family: Open Sans;
+	/*text-align: center;*/
 }
 
-p {
-	background: white;
+th {
+  text-align: left;
 }
 
-img {
-	transform: rotate(10deg);
-	max-width: 200px;
-	max-height: 200px;
-	background: white
+#page-container {
+  position: relative;
+}
+
+#content-wrap {
+  min-height: 100vh;
+  padding-bottom: 4.5rem;    /* Footer height */
+}
+
+#footer a {
+    color: white;
+}
+
+#footer {
+    color: white;
+    background: #853ed4;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;            /* Footer height */
+    padding: .5em;
 }
