@@ -125,6 +125,11 @@ p {
   padding: .5em;
 }
 
+#code-box a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
 
 #footer {
     color: #cccccc;
