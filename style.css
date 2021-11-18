@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=VT323&display=swap');
 
 *{
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    color: #cccccc ;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: #cccccc ;
 }
 
 html, body{
-    margin: 0;
-    padding: 0;
-    background-color: #363636;
+  margin: 0;
+  padding: 0;
+  background-color: #363636;
 }
 
 @keyframes fadeIn {
@@ -19,42 +18,42 @@ html, body{
 }
 
 .nav ul, h1, li {
-    margin: 0;
+  margin: 0;
 }
 
 .nav li {
-    display: inline;
-    text-align: left;
-    font-weight: lighter;
+  display: inline;
+  text-align: left;
+  font-weight: lighter;
 }
 
 .nav a {
-    display: inline-block;
-    padding: .5em;
-    color: #cccccc;
-    text-decoration: none;
+  display: inline-block;
+  padding: .75em;
+  color: #cccccc;
+  text-decoration: none;
 
 }
 
 .nav a:hover {
-    /* Color of button */
-    background-color: #493157;
-    color: black;
+  /* Color of button */
+  background-color: #493157;
+  color: black;
 }
 
 .main-header {
-    background: #493157;
-    background-size: cover;
-    padding: .5em;
+  background: #493157;
+  background-size: cover;
+  padding: .5em;
 }
 .content-section {
-    animation: fadeIn 0.25s;
-    margin: 1em;
+  animation: fadeIn 0.25s;
+  margin: 1em;
 }
 
 .container {
-    max-width: 50%;
-    
+  max-width: 50%;
+
 }
 
 .button {
@@ -68,43 +67,54 @@ html, body{
   margin: 4px 2px;
   cursor: pointer;
   font-weight: strong;
-	
+  border-radius: 10px;
+
 }
 
 .button1 {
   background-color: #493157;
-  color: white;
+  color: #cccccc;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #cccccc;
 }
 
 
 .button1:hover {
   background-color: #493157;
-  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #493157;
+  color:#cccccc;
 }
 
 .gamegif {
-    vertical-align: top;
-    display: inline-block;
+  vertical-align: top;
+  display: inline-block;
 }
 
 
 h1 {
 	color: white;
   padding: .2em;
-	/*text-align: center;*/
+  font-size: 2em;
 }
 
 h2 {
-	color: #cccccc;
-	/*text-align: center;*/
+  display: inline-flex; /* keep the background color wrapped tight */
+  border-radius: 15px;
+  font-size: 1.5em ;
+  background-color: #493157;
+  padding: 10px;
+  text-decoration: underline;
 }
 
 h3 {
-  color: #cccccc;
+  font-size: 1em;
 }
 
 p {
-  color: #cccccc;
+  font-size: 1em;
 }
 
 #page-container {
@@ -117,28 +127,34 @@ p {
 }
 
 #footer a {
-    color: #cccccc;
+  color: #cccccc;
+  bottom: 0;
 }
 
 #code-box {
+  font-family: 'VT323', monospace;
   background-color: black;
-  font-family: 'Open Sans', sans-serif;
   padding: .5em;
 }
 
-#code-box a {
+#code-box a, strong, p {
+  font-family: 'VT323', monospace;
+}
+
+a {
   color: #cccccc;
   text-decoration: none;
 }
 
 
 #footer {
-    color: #cccccc;
-    background: #493157;
-    background-size: cover;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 7em;            /* Footer height */
-    padding: .5em;
+  color: #cccccc;
+  background: #493157;
+  background-size: cover;
+  position: absolute;
+  vertical-align: text-bottom;
+  bottom: 0;
+  width: 100%;
+  height: 5em;            /* Footer height */
+  padding: .5em;
 }
