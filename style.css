@@ -49,6 +49,7 @@ html, body{
 .content-section {
   animation: fadeIn 0.25s;
   margin: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -93,6 +94,14 @@ html, body{
   display: inline-block;
 }
 
+.code-box {
+  font-family: 'VT323', monospace;
+  background-color: black;
+}
+
+.download-image {
+  border-radius: 5px;
+}
 
 h1 {
 	color: white;
@@ -102,11 +111,10 @@ h1 {
 
 h2 {
   display: inline-flex; /* keep the background color wrapped tight */
-  border-radius: 15px;
+  border-radius: 5px;
   font-size: 1.5em ;
   background-color: #493157;
-  padding: 10px;
-  text-decoration: underline;
+  padding: 8px;
 }
 
 h3 {
@@ -114,7 +122,9 @@ h3 {
 }
 
 p {
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  background-color: none;
 }
 
 #page-container {
@@ -131,19 +141,11 @@ p {
   bottom: 0;
 }
 
-#code-box {
-  font-family: 'VT323', monospace;
-  background-color: black;
-  padding: .5em;
-}
-
-#code-box a, strong, p {
-  font-family: 'VT323', monospace;
-}
-
 a {
+  font-family: 'Open Sans', sans-serif;
   color: #cccccc;
   text-decoration: none;
+  background-color: none;
 }
 
 
