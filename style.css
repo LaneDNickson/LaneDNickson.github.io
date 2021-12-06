@@ -19,6 +19,7 @@ html, body{
 
 .nav ul, h1, li {
   margin: 0;
+
 }
 
 .nav li {
@@ -106,7 +107,7 @@ html, body{
 h1 {
 	color: white;
   padding: .2em;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h2 {
