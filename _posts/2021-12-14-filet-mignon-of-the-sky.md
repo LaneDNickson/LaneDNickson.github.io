@@ -1,0 +1,16 @@
+---
+name: Filet Mignon of the Sky
+layout: post
+author: OldNewTimer
+---
+They're so peaceful now - the birds. Flapping from tree to tree, without a care in the world. They sing songs, collect tidbits for their nests, and love it all. At night, they are afraid, but together they stay and together they will be in the morning. On one of these mornings, a dove lands near me, eyeing a puddle; it's the last sigh of yesterday's sickly storm. The dove glances in my direction as one of its eyes meets mine. It cocks its head to the left, and then to the right. It is clearly amused by this huge figure that is staring at it. Maybe the birds write about watching people too. I don't know, their wings may be poetry that we can never understand the simplistic beauty of. Anyways, I lift my pen from the paper I'm rambling on and begin to draw on another.
+
+I'm not that good of an artist. Never had any formal classes; a doodle is about my level of experience. I start to draw the outline, then little lines here and there that show depth and form. Genius! But I don't know where exactly the lines are supposed to go, so, I guess. Brilliant! 
+
+This isn't the stage for color yet, that's a whole different ballpark. Besides, all I have is this fountain pen. Fair. I begin to add the finer details; I poke on some eyes (no more than two, please), a little beak here and there, maybe some feathers (that's necessary, stupid). Then I start to shade the bird. Starting with a slanted pen, I graze it back and forth on the paper, making faint and jagged lines along features I want highlighted. 
+
+"Happy little trees," I think to myself. I've started with some quality details, but too many to a point where my wrist has other plans. I finish it out with some more happy little tree strokes, albeit they may have gone through a bit of a drought. It'll buff out.
+
+One last thing, of course: my signature. I scribble it in the bottom right, along with the date. It'll be useful when it's hanging in the Louvre. And with that, I put down my pen to see its offspring. Ah, yes, the rubber ducky franken-chicken. Brilliant. What a masterpiece. Maybe I should stick to writing words.
+
+The dove is beautiful though. That's what really matters.

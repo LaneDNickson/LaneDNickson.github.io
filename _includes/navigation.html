@@ -1,0 +1,10 @@
+<nav>
+  <h1 class="logo">Lane (That's Me)</h1>
+    <div class="navitem">
+      {% for item in site.data.navigation %}
+      <a class="active" href="{{ item.link }}" {% if page.url == item.link %}{% endif %}>
+        {{ item.name }}
+      </a>
+       {% endfor %}
+    </div>
+  </nav>

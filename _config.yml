@@ -1,0 +1,28 @@
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  
+collections:
+  programs:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "programs"
+    values:
+      layout: "program"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Markdown to HTML recognizes newlines and not just paragraphs.
+kramdown:
+  hard_wrap: true

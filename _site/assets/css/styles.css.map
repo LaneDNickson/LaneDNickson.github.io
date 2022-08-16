@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"*{\n    font-family: sans-serif;\n    list-style: none;\n    text-decoration: none;\n}\n\n\n// nav {\n//     width: 100%;\n//     //Gradient from cssgradient.io\n//     background: rgb(43,95,164);\n//     background: linear-gradient(90deg, rgba(43,95,164,1) 0%, rgba(113,10,189,1) 100%);\n//     height: 80px;\n// }\n\n// .logo {\n//     color: white;\n//     font-size: 35px;\n//     line-height: 80px;\n//     padding: 0 100px;\n//     font-weight: bold;\n// }\n\n// .navitem {\n//     float: right;\n//     margin-right: 20px;\n//     line-height: 80px;\n// }\n\n// .navitem a { \n//     color: white;\n//     display: inline-block;\n//     padding: 0px 5px;\n//     border-radius: 3px;\n//     font-size: 17px;\n//     line-height: 30px;\n//     font-weight: bold;\n// }\n\n// a.active:hover{\n//     background: #2b5fa4;\n//     transition: .5s;\n// }"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,CAAC,CAAA,EACG,WAAW,EAAE,UAAU,EACvB,UAAU,EAAE,IAAI,EAChB,eAAe,EAAE,IAAI,GACxB"
+}
