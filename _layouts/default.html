@@ -1,19 +1,25 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }} | Lane (That's Me)</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    {% feed_meta %}
-    {% seo %}
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | Lane (That's Me)</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  {% feed_meta %}
+  {% seo %}
+</head>
+
+<body>
+  <div id="header">
     {% include navigation.html %}
+  </div>
+  <div id="page-content">
     {{ content }}
-    <footer id="footer">
-        <i>© 2022 Lane Nickson, All Rights Reserved</i> <br>
-        <a href="/log.html">Site Update Log</a>
-    </footer>
-  </body>
+  </div>
+  <footer id="footer">
+    <i>© 2022 Lane Nickson, All Rights Reserved</i> <br>
+    <a href="/log.html">Site Update Log</a>
+  </footer>
+</body>
+
 </html>

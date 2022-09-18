@@ -1,3 +1,15 @@
 * { font-family: sans-serif; list-style: none; text-decoration: none; }
 
+body { display: flex; min-height: 100vh; flex-direction: column; margin: 0; }
+
+#header, #footer { background: lightblue; height: 10vh; }
+
+#page-content { flex: 1; padding: 20px; }
+
+.downloads-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; row-gap: 20px; column-gap: 20px; }
+
+.program img { width: 100%; }
+
+.program { text-align: center; }
+
 /*# sourceMappingURL=styles.css.map */

@@ -4,11 +4,12 @@ title: Downloads
 ---
 <h2>Downloads</h2>
 
-<ul>
+<div class="downloads-grid">
     {% for program in site.programs %}
-    <li>
+    <div class="program">
         <h3> <a href="{{ program.url }}">{{ program.title }}</a></h3>
+        <img src="{{ program.image }}">
         {{ program.content }}
-    </li>
+    </div>
     {% endfor %}
-</ul>
+</div>
