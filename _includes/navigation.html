@@ -1,10 +1,23 @@
 <nav>
-  <h1 class="logo">Lane (That's Me)</h1>
-    <div class="navitem">
+  <div class="navbar">
+    <div class="site-title">
+      Lane
+    </div>
+    <div class="site-subtitle">
+      (That's Me)
+    </div>
+    <div>
       {% for item in site.data.navigation %}
-      <a class="active" href="{{ item.link }}" {% if page.url == item.link %}{% endif %}>
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="nav-active"{% else %} class="nav-button"{% endif %}>
         {{ item.name }}
       </a>
        {% endfor %}
     </div>
+    <div class="socials">
+      <a class="social" href="https://github.com/OldNewTimer"><i data-feather="github"></i></a>
+      <a class="social" href="https://www.linkedin.com/in/lane-nickson-a29068146/"><i data-feather="linkedin"></i></a>
+      <a class="social" href="https://www.instagram.com/lanednickson/"><i data-feather="instagram"></i></a>
+      <a class="social" href="https://www.twitter.com/lanednickson/"><i data-feather="twitter"></i></a>
+    </div>
+  </div>
   </nav>

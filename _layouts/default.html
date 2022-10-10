@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }} | Lane (That's Me)</title>
+  <script src="https://unpkg.com/feather-icons"></script>
   <link rel="stylesheet" href="/assets/css/styles.css">
   {% feed_meta %}
   {% seo %}
@@ -16,10 +17,11 @@
   <div id="page-content">
     {{ content }}
   </div>
-  <footer id="footer">
-    <i>© 2022 Lane Nickson, All Rights Reserved</i> <br>
-    <a href="/log.html">Site Update Log</a>
-  </footer>
+
+  <script>
+    feather.replace()
+  </script>
+
 </body>
 
 </html>

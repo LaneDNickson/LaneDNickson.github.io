@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>The Man And His Pen | Lane (That's Me)</title>
+  <script src="https://unpkg.com/feather-icons"></script>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
   <!-- Begin Jekyll SEO tag v2.8.0 -->
@@ -29,34 +30,43 @@
 <body>
   <div id="header">
     <nav>
-  <h1 class="logo">Lane (That's Me)</h1>
-    <div class="navitem">
+  <div class="navbar">
+    <div class="site-title">
+      Lane
+    </div>
+    <div class="site-subtitle">
+      (That's Me)
+    </div>
+    <div>
       
-      <a class="active" href="/" >
-        Home
-      </a>
-       
-      <a class="active" href="/about.html" >
+      <a href="/"  class="nav-button">
         About
       </a>
        
-      <a class="active" href="/blog.html" >
+      <a href="/portfolio.html"  class="nav-button">
+        Portfolio
+      </a>
+       
+      <a href="/resume.html"  class="nav-button">
+        Resume
+      </a>
+       
+      <a href="/downloads.html"  class="nav-button">
+        Hobby Projects
+      </a>
+       
+      <a href="/blog.html"  class="nav-button">
         Blog
       </a>
        
-      <a class="active" href="/projects.html" >
-        Projects
-      </a>
-       
-      <a class="active" href="/downloads.html" >
-        Downloads
-      </a>
-       
-      <a class="active" href="/contact.html" >
-        Contact
-      </a>
-       
     </div>
+    <div class="socials">
+      <a class="social" href="https://github.com/OldNewTimer"><i data-feather="github"></i></a>
+      <a class="social" href="https://www.linkedin.com/in/lane-nickson-a29068146/"><i data-feather="linkedin"></i></a>
+      <a class="social" href="https://www.instagram.com/lanednickson/"><i data-feather="instagram"></i></a>
+      <a class="social" href="https://www.twitter.com/lanednickson/"><i data-feather="twitter"></i></a>
+    </div>
+  </div>
   </nav>
   </div>
   <div id="page-content">
@@ -93,10 +103,11 @@ Take a breath, wipe your brow</p>
 <p>Write what you want, and take a bow</p>
 
   </div>
-  <footer id="footer">
-    <i>© 2022 Lane Nickson, All Rights Reserved</i> <br>
-    <a href="/log.html">Site Update Log</a>
-  </footer>
+
+  <script>
+    feather.replace()
+  </script>
+
 </body>
 
 </html>
