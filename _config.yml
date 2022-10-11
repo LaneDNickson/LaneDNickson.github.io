@@ -6,6 +6,8 @@ plugins:
 collections:
   programs:
     output: true
+  projects:
+    output: true
 
 defaults:
   - scope:
@@ -13,6 +15,11 @@ defaults:
       type: "programs"
     values:
       layout: "program"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
   - scope:
       path: ""
       type: "posts"

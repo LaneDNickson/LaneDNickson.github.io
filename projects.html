@@ -4,4 +4,11 @@ title: projects
 ---
 <h2>Projects</h2>
 
-<p>(Work in progress)</p>
+<ul>
+    {% for project in site.projects %}
+    <li>
+        <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+        {{ project.excerpt }}
+    </li>
+    {% endfor %}
+</ul>

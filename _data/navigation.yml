@@ -1,9 +1,9 @@
 - name: About
   link: /
-- name: Portfolio
-  link: /portfolio.html
 - name: Resume
   link: /resume.html
+- name: Portfolio
+  link: /projects.html
 - name: Hobby Projects
   link: /downloads.html
 - name: Blog

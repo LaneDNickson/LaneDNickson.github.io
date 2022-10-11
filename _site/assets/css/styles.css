@@ -34,7 +34,7 @@ body { font-family: 'Roboto', sans-serif; background: #2c304b; color: #B4A5A5; }
 
 .social svg { stroke-width: 1.5; color: #B4A5A5; }
 
-.downloads-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); row-gap: 20px; column-gap: 20px; }
+.downloads-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); row-gap: 20px; column-gap: 20px; }
 
 .program img { width: 100%; }
 
