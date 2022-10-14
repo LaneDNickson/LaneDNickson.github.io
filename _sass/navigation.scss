@@ -27,7 +27,6 @@
   .nav-button,
   .nav-active {
     display: inline-block;
-    font-size: 15px;
   }
 }
 
@@ -62,18 +61,18 @@
   .nav-button,
   .nav-active {
     display: block;
-    font-size: 20px;
+
   }
 }
 
 .site-title {
-  font-size: 50px;
+  font-size: 2rem;
   font-weight: 100%;
   color: $color-main;
 }
 
 .site-subtitle {
-  font-size: 30px;
+  font-size: 1.5rem;
   color: $color-subtitle-gray;
   margin-bottom: 10px;
 }

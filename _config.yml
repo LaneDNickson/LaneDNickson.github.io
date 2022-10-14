@@ -3,8 +3,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-url: OldNewTimer.github.io
-baseurl: /myreponame
+url: https://oldnewtimer.github.io
+baseurl: 
 
 # Google Analytics
 google_analytics: G-FLTP85BKSJ

@@ -1,8 +1,16 @@
+html { font-size: calc(15px + 0.390625vw); font-family: 'Roboto', sans-serif; }
+
+h1 { font-size: 1.8rem; }
+
+h2 { font-size: 1.5rem; }
+
+h3 { font-size: 1.2rem; }
+
 a { color: #D03ED4; text-decoration: none; /* no underline */ }
 
 .no-bullet-list { list-style: none; }
 
-body { font-family: 'Roboto', sans-serif; background-color: #2F2F2F; color: white; display: flex; min-height: 100vh; flex-direction: column; margin: 0; }
+body { background-color: #2F2F2F; color: white; display: flex; min-height: 100vh; flex-direction: column; margin: 0; }
 
 /* SMALL SCREEN */
 /* BIG SCREEN */
@@ -14,17 +22,17 @@ body { font-family: 'Roboto', sans-serif; background-color: #2F2F2F; color: whit
   .navbar { top: 0; left: 0; right: 0; padding: 10px; background-color: #151515; overflow: hidden; }
   .site-title { display: inline-block; }
   .site-subtitle { display: inline-block; }
-  .nav-button, .nav-active { display: inline-block; font-size: 15px; } }
+  .nav-button, .nav-active { display: inline-block; } }
 /* BIG SCREEN */
 @media only screen and (min-width: 992px) { /* CSS that should be displayed if width is equal to or greater than 991px goes here */
   body { padding-left: 250px; padding-right: 50px; }
   .navbar { position: fixed; top: 0; left: 0; bottom: 0; padding: 10px; width: 180px; background-color: #151515; overflow: hidden; }
   .site-title { display: block; }
   .site-subtitle { display: block; }
-  .nav-button, .nav-active { display: block; font-size: 20px; } }
-.site-title { font-size: 50px; font-weight: 100%; color: #853ed4; }
+  .nav-button, .nav-active { display: block; } }
+.site-title { font-size: 2rem; font-weight: 100%; color: #853ed4; }
 
-.site-subtitle { font-size: 30px; color: #B4A5A5; margin-bottom: 10px; }
+.site-subtitle { font-size: 1.5rem; color: #B4A5A5; margin-bottom: 10px; }
 
 .nav-button, .nav-active { text-align: center; border-radius: 2px; margin-bottom: 10px; padding: 10px; color: white; text-decoration: none; border-style: none; border-radius: 40px; transition: opacity 0.15s; }
 
@@ -42,8 +50,10 @@ body { font-family: 'Roboto', sans-serif; background-color: #2F2F2F; color: whit
 
 .social svg:hover { color: #D03ED4; }
 
-.downloads-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); row-gap: 20px; column-gap: 20px; }
-
+/* SMALL SCREEN */
+@media only screen and (max-width: 991px) { .downloads-grid { display: block; } }
+/* BIG SCREEN */
+@media only screen and (min-width: 992px) { .downloads-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); row-gap: 20px; column-gap: 20px; } }
 .program img { width: 100%; }
 
 .program { text-align: center; }

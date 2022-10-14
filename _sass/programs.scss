@@ -1,9 +1,19 @@
-.downloads-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  row-gap: 20px;
-  column-gap: 20px;
+/* SMALL SCREEN */
+@media only screen and (max-width: 991px) {
+  .downloads-grid {
+    display: block;
+  }
+}
 
+/* BIG SCREEN */
+@media only screen and (min-width: 992px) {
+  .downloads-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 20px;
+    column-gap: 20px;
+
+  }
 }
 
 .program img {
