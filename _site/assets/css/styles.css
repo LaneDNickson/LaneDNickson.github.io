@@ -30,11 +30,11 @@ body { background-color: #2F2F2F; color: white; display: flex; min-height: 100vh
   .site-title { display: block; }
   .site-subtitle { display: block; }
   .nav-button, .nav-active { display: block; } }
-.site-title { font-size: 2rem; font-weight: 100%; color: #853ed4; }
+.site-title { font-size: 2.7rem; font-weight: 100%; color: #853ed4; }
 
 .site-subtitle { font-size: 1.5rem; color: #B4A5A5; margin-bottom: 10px; }
 
-.nav-button, .nav-active { text-align: center; border-radius: 2px; margin-bottom: 10px; padding: 10px; color: white; text-decoration: none; border-style: none; border-radius: 40px; transition: opacity 0.15s; }
+.nav-button, .nav-active { font-size: 0.8rem; text-align: center; border-radius: 2px; margin-bottom: 10px; padding: 10px; color: white; text-decoration: none; border-style: none; border-radius: 40px; transition: opacity 0.15s; }
 
 .nav-button { background-color: #6C29B6; }
 
