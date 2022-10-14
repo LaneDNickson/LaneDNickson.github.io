@@ -4,11 +4,11 @@ title: projects
 ---
 <h2>Projects</h2>
 
-<ul>
+<ul class="no-bullet-list">
     {% for project in site.projects %}
     <li>
         <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
-        {{ project.excerpt }}
+        <p>{{ project.excerpt }}</p>
     </li>
     {% endfor %}
 </ul>

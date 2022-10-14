@@ -1,10 +1,3 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  background: #2c304b;
-  color: #B4A5A5;
-}
-
-
 /* SMALL SCREEN */
 @media only screen and (max-width: 991px) {
 
@@ -43,8 +36,8 @@ body {
 
   /* CSS that should be displayed if width is equal to or greater than 991px goes here */
   body {
-    padding-left: 300px;
-    padding-right: 100px;
+    padding-left: 250px;
+    padding-right: 50px;
   }
 
   .navbar {
@@ -54,7 +47,7 @@ body {
     bottom: 0;
     padding: 10px;
     width: 180px;
-    background-color: #151515;
+    background-color: $color-background-dark;
     overflow: hidden;
   }
 
@@ -76,12 +69,12 @@ body {
 .site-title {
   font-size: 50px;
   font-weight: 100%;
-  color: white;
+  color: $color-main;
 }
 
 .site-subtitle {
   font-size: 30px;
-  color: #B4A5A5;
+  color: $color-subtitle-gray;
   margin-bottom: 10px;
 }
 
@@ -92,16 +85,20 @@ body {
 
   margin-bottom: 10px;
   padding: 10px;
-  color: #B4A5A5;
+  color: $color-title;
   text-decoration: none;
+
+  border-style: none;
+  border-radius: 40px;
+  transition: opacity 0.15s;
 }
 
 .nav-button {
-  background-color: #2c304b;
+  background-color: $color-main-subtle;
 }
 
 .nav-active {
-  background-color: #303e8f;
+  background-color: $color-accent-2;
 }
 
 .nav-button:hover,
@@ -123,5 +120,10 @@ body {
 
 .social svg {
   stroke-width: 1.5;
-  color: #B4A5A5;
+  color: $color-subtitle-gray;
+  transition: color 0.15s;
+}
+
+.social svg:hover {
+  color: $color-accent-1;
 }

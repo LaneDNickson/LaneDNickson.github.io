@@ -2,7 +2,13 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  
+
+url: OldNewTimer.github.io
+baseurl: /myreponame
+
+# Google Analytics
+google_analytics: G-FLTP85BKSJ
+
 collections:
   programs:
     output: true

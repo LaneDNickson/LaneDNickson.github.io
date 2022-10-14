@@ -1,34 +1,22 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #2c304b;
-    color: #B4A5A5;
+    // Default Background
+    background-color: $color-subtle-background-dark;
+    // Default Text Color
+    color: $color-title;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
+
 }
 
 
 /* SMALL SCREEN */
-@media only screen and (max-width: 991px) {
-
-    /* CSS that should be displayed if width is equal to or less than 991px and larger 
-     than 768px goes here */
-    body {
-        margin: 0;
-    }
-
-}
+@media only screen and (max-width: 991px) {}
 
 /* BIG SCREEN */
-@media only screen and (min-width: 992px) {
-
-    /* CSS that should be displayed if width is equal to or greater than 991px goes here */
-    body {
-        padding-left: 300px;
-        padding-right: 100px;
-    }
-}
+@media only screen and (min-width: 992px) {}
 
 // Actual content of the page stretches to push header and footer into respective places
 #page-content {
