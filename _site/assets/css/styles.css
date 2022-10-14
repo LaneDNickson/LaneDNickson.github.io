@@ -22,15 +22,16 @@ body { background-color: #2F2F2F; color: white; display: flex; min-height: 100vh
   .navbar { top: 0; left: 0; right: 0; padding: 10px; background-color: #151515; overflow: hidden; }
   .site-title { display: inline-block; }
   .site-subtitle { display: inline-block; }
-  .nav-button, .nav-active { display: inline-block; } }
+  .nav-button, .nav-active { display: inline-block; }
+  .socials { max-width: 50%; } }
 /* BIG SCREEN */
 @media only screen and (min-width: 992px) { /* CSS that should be displayed if width is equal to or greater than 991px goes here */
-  body { padding-left: 250px; padding-right: 50px; }
-  .navbar { position: fixed; top: 0; left: 0; bottom: 0; padding: 10px; width: 180px; background-color: #151515; overflow: hidden; }
+  body { padding-left: 12rem; padding-right: 2rem; }
+  .navbar { position: fixed; top: 0; left: 0; bottom: 0; padding: 10px; width: 10rem; background-color: #151515; overflow: hidden; }
   .site-title { display: block; }
   .site-subtitle { display: block; }
   .nav-button, .nav-active { display: block; } }
-.site-title { font-size: 2.7rem; font-weight: 100%; color: #853ed4; }
+.site-title { font-size: 2.8rem; font-weight: 100%; color: #853ed4; }
 
 .site-subtitle { font-size: 1.5rem; color: #B4A5A5; margin-bottom: 10px; }
 
@@ -44,7 +45,7 @@ body { background-color: #2F2F2F; color: white; display: flex; min-height: 100vh
 
 .main-content { padding: 10px; }
 
-.socials { display: flex; flex-direction: row; justify-content: space-around; max-width: 200px; }
+.socials { display: flex; flex-direction: row; justify-content: space-around; }
 
 .social svg { stroke-width: 1.5; color: #B4A5A5; transition: color 0.15s; }
 
