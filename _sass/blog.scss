@@ -1,0 +1,57 @@
+.blog-background {
+  background-image: url("/assets/images/bridge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-style: none;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.blog-title {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.blog-post-preview {
+  padding: 40px;
+  margin-bottom: 50px;
+  background-color: $color-subtle-background-dark-blog;
+  border-style: none;
+  border-radius: 0.2rem;
+}
+
+.post-excerpt {
+  position: relative;
+}
+
+// Gradient from https://cssgradient.io
+// Makes it look like the excerpt fades away
+.post-excerpt-overlay {
+  position: absolute;
+  background: rgb(65, 63, 63);
+  background: linear-gradient(0deg, rgba(65, 63, 63, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.post-title {
+  color: $color-title;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-date {
+  color: $color-subtitle-gray;
+}
+
+.read-more {
+  text-align: right;
+  font-weight: bold;
+  color: $color-title;
+}

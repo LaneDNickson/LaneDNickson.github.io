@@ -2,13 +2,22 @@
 layout: default
 title: Blog
 ---
-<h2>Don't 'cha Know It? - A Blog of Random Consequence</h2>
-
-<ul class="no-bullet-list">
+<div class="blog-background">
+    <div class="blog-title">
+        <h2>Don't 'cha Know It?</h2>
+        <h3>A Blog of Random Consequence</h3>
+    </div>
+</div>
     {% for post in site.posts %}
-    <li>
-        <h3><a href="{{ post.url }}">{{ post.name }}</a> - {{ post.date | date_to_string }}</h3>
-        {{ post.excerpt }}
-    </li>
+    <div class="blog-post-preview">
+        <a class="post-title" href="{{ post.url }}">{{ post.name }}</a>
+        <div class="post-date"> {{ post.date | date_to_string }}</div>
+        <div class="post-excerpt">
+            {{ post.excerpt }}
+            <div class="post-excerpt-overlay"></div>
+        </div>
+        <div class="read-more">
+            <a href="{{ post.url }}">READ MORE</a>
+        </div>
+    </div>
     {% endfor %}
-</ul>
