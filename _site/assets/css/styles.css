@@ -12,12 +12,14 @@ a { color: #3E42D4; text-decoration: none; /* no underline */ }
 
 .no-bullet-list { list-style: none; }
 
-.blog-background { background-image: url("/assets/images/bridge.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center; border-style: none; border-radius: 0.5rem; overflow: hidden; margin-bottom: 1rem; }
+.blog-background { background-image: url("/assets/images/bridge.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center; border-style: none; border-radius: 0.2rem; overflow: hidden; margin-bottom: 1rem; }
 
 .blog-title { padding-top: 2rem; padding-bottom: 2rem; text-align: center; }
 
-.blog-post-preview { padding: 40px; margin-bottom: 50px; background-color: #413f3f; border-style: none; border-radius: 0.2rem; }
+.blog-post-preview { padding: 1.5rem; margin-bottom: 1rem; background-color: #413f3f; border-style: none; border-radius: 0.2rem; overflow: hidden; }
 
+/* BIG SCREEN */
+@media only screen and (min-width: 992px) { .blog-post-preview { width: 75%; margin-left: auto; margin-right: auto; } }
 .post-excerpt { position: relative; }
 
 .post-excerpt-overlay { position: absolute; background: #413f3f; background: linear-gradient(0deg, #413f3f 0%, rgba(255, 255, 255, 0) 100%); top: 0; left: 0; right: 0; bottom: 0; }
@@ -53,7 +55,7 @@ body { background-color: #2F2F2F; color: white; display: flex; min-height: 100vh
 
 .site-subtitle { font-size: 1.5rem; color: #B4A5A5; margin-bottom: 10px; }
 
-.nav-button, .nav-active { font-size: 0.8rem; text-align: center; border-radius: 2px; margin-bottom: 10px; padding: 10px; color: white; text-decoration: none; border-style: none; border-radius: 40px; transition: opacity 0.15s; }
+.nav-button, .nav-active { font-size: 0.8rem; text-align: center; border-radius: 2px; margin-bottom: 10px; padding: 10px; color: white; text-decoration: none; border-style: none; border-radius: 1rem; transition: opacity 0.15s; }
 
 .nav-button { background-color: #6C29B6; }
 

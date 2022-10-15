@@ -8,16 +8,16 @@ title: Blog
         <h3>A Blog of Random Consequence</h3>
     </div>
 </div>
-    {% for post in site.posts %}
-    <div class="blog-post-preview">
-        <a class="post-title" href="{{ post.url }}">{{ post.name }}</a>
-        <div class="post-date"> {{ post.date | date_to_string }}</div>
-        <div class="post-excerpt">
-            {{ post.excerpt }}
-            <div class="post-excerpt-overlay"></div>
-        </div>
-        <div class="read-more">
-            <a href="{{ post.url }}">READ MORE</a>
-        </div>
+{% for post in site.posts %}
+<div class="blog-post-preview">
+    <a class="post-title" href="{{ post.url }}">{{ post.name }}</a>
+    <div class="post-date"> {{ post.date | date_to_string }}</div>
+    <div class="post-excerpt">
+        {{ post.excerpt }}
+        <div class="post-excerpt-overlay"></div>
     </div>
-    {% endfor %}
+    <div class="read-more">
+        <a href="{{ post.url }}">READ MORE</a>
+    </div>
+</div>
+{% endfor %}

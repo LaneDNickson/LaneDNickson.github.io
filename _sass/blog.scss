@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   border-style: none;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   overflow: hidden;
   margin-bottom: 1rem;
 }
@@ -16,11 +16,22 @@
 }
 
 .blog-post-preview {
-  padding: 40px;
-  margin-bottom: 50px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
   background-color: $color-subtle-background-dark-blog;
   border-style: none;
   border-radius: 0.2rem;
+
+  overflow: hidden;
+}
+
+/* BIG SCREEN */
+@media only screen and (min-width: 992px) {
+  .blog-post-preview { 
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .post-excerpt {
