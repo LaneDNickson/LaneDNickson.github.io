@@ -1,17 +1,18 @@
 <nav>
   <div class="navbar">
-      <a class="site-title" href="{% link index.html %}">Lane</a>
-      <a class="site-title" href="{% link index.html %}">Nickson</a>
-    
+    <a class="site-title" href="{% link index.html %}">Lane</a>
+    <a class="site-title" href="{% link index.html %}">Nickson</a>
+
     <div class="site-subtitle">
       (That's Me)
     </div>
     <div class="nav-buttons">
       {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="nav-active"{% else %} class="nav-button"{% endif %}>
+      <a href="{{ item.link }}" {% if page.url==item.link %}class="nav-active" {% else %} class="nav-button" {% endif
+        %}>
         {{ item.name }}
       </a>
-       {% endfor %}
+      {% endfor %}
     </div>
     <div class="socials">
       <a class="social" href="https://github.com/OldNewTimer"><i data-feather="github"></i></a>
@@ -20,4 +21,4 @@
       <a class="social" href="https://www.twitter.com/lanednickson/"><i data-feather="twitter"></i></a>
     </div>
   </div>
-  </nav>
+</nav>
