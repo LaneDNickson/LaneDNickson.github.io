@@ -1,4 +1,5 @@
-<nav>
+<!-- <nav>
+
   <div class="navbar">
     <a class="site-title" href="{% link index.html %}">Lane</a>
     <a class="site-title" href="{% link index.html %}">Nickson</a>
@@ -19,6 +20,29 @@
       <a class="social" href="https://www.linkedin.com/in/lane-nickson-a29068146/"><i data-feather="linkedin"></i></a>
       <a class="social" href="https://www.instagram.com/lanednickson/"><i data-feather="instagram"></i></a>
       <a class="social" href="https://www.twitter.com/lanednickson/"><i data-feather="twitter"></i></a>
+    </div>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container mx-5">
+    <a class="navbar-brand" href="{% link index.html %}">Lane Nickson (That's Me)</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url==item.link %}class="nav-link active" aria-current="page"{% else %} class="nav-link" {% endif
+          %}>
+          {{ item.name }}
+        </a>
+        {% endfor %}
+        <a class="nav-link" href="https://github.com/LaneDNickson"><i data-feather="github"></i></a>
+      <a class="nav-link" href="https://www.linkedin.com/in/lane-nickson-a29068146/"><i data-feather="linkedin"></i></a>
+      <a class="nav-link" href="https://www.instagram.com/lanednickson/"><i data-feather="instagram"></i></a>
+      <a class="nav-link" href="https://www.twitter.com/lanednickson/"><i data-feather="twitter"></i></a>
+      </div>
     </div>
   </div>
 </nav>
