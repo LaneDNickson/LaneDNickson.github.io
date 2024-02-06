@@ -4,15 +4,196 @@ import Card from "../components/Card.astro";
 ---
 
 <Layout title="Lane Nickson">
-	<main class="min-h-screen">
+	<!-- <main class="min-h-screen">
 		<div id="container" class="flex justify-center items-center min-h-screen">
-			<div id="business-card" class="aspect-video max-w-96 bg-white rounded-sm flex justify-center items-center hover:shadow-lg hover:scale-125 duration-75">
+			<div
+				id="business-card"
+				class="aspect-video max-w-96 bg-white rounded-sm flex justify-center items-center hover:shadow-lg hover:scale-125 duration-75"
+			>
 				<img
 					class="w-5/6"
 					src="images/signature_transparent.png"
 					alt="Signature of Lane Nickson"
 				/>
+				<div class="flip-card-back">
+					<h1>John Doe</h1>
+					<p>Architect & Engineer</p>
+					<p>We love that guy</p>
+				</div>
+			</div>
+		</div> -->
+	<div
+		id="container"
+		class="p-5 flex flex-col justify-center items-center min-h-screen gap-12"
+	>
+		<div
+			class="flip-card md:w-96 w-full aspect-video scale-75 hover:scale-100 duration-1000"
+		>
+			<div class="flip-card-inner bg-light rounded-sm">
+				<div class="flip-card-front flex justify-center items-center">
+					<img
+						class="w-5/6"
+						src="images/signature_transparent.png"
+						alt="Signature of Lane Nickson"
+					/>
+				</div>
+				<div class="flip-card-back bg-light rounded-sm">
+					<h1>Lane Nickson</h1>
+					<p>Creator</p>
+				</div>
 			</div>
 		</div>
-	</main>
+
+		<div class="md:w-4/5 sm:w-full bg-light p-5 rounded-sm">
+			<h1>About Me</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat
+				nulla ac turpis vulputate, in fringilla quam blandit. Curabitur eget
+				rutrum leo. Maecenas quis ex vel lacus consequat efficitur. Nullam
+				euismod sapien in sem ullamcorper feugiat. Curabitur leo nisl, finibus
+				sed porta id, sollicitudin sit amet magna. Nunc maximus, sem non
+				porttitor lacinia, lacus quam cursus neque, tincidunt ultricies ligula
+				velit quis risus. Fusce quis felis nec tortor aliquet aliquam et quis
+				lorem. Aliquam ac odio vestibulum, auctor ipsum quis, sagittis lorem.
+				Curabitur tortor purus, scelerisque at ultricies sed, consequat vitae
+				augue. Nulla dictum libero quis justo gravida, a blandit elit dignissim.
+				Pellentesque habitant morbi tristique senectus et netus et malesuada
+				fames ac turpis egestas. Donec id lacus ligula. In feugiat nulla sed
+				suscipit mattis. Integer dictum fringilla eros, vel euismod justo
+				consequat a. Morbi fringilla molestie dignissim. Integer lacinia dolor
+				at quam commodo, sed facilisis ex pharetra. Nullam elementum viverra
+				lectus id venenatis. Duis magna erat, accumsan at tincidunt mollis,
+				ultricies at velit. Curabitur varius neque ac volutpat aliquet.
+				Phasellus consectetur ipsum sed arcu mattis congue. Donec a euismod
+				metus. Nullam at dui sed enim congue tincidunt quis quis eros. In vitae
+				justo consequat metus sodales varius. Sed mauris odio, aliquet nec nibh
+				eu, imperdiet maximus turpis. Nullam at scelerisque enim, nec
+				pellentesque lorem. Mauris id luctus sapien. Duis posuere risus et quam
+				venenatis, at egestas lacus consectetur. Integer varius lorem in risus
+				posuere, id maximus orci aliquet. Sed magna augue, porta eget pulvinar
+				et, semper nec lectus. Suspendisse potenti. Maecenas varius sapien at
+				eros scelerisque, id maximus mi ultricies. Duis maximus orci urna.
+				Phasellus iaculis scelerisque vulputate. Interdum et malesuada fames ac
+				ante ipsum primis in faucibus. Etiam vitae facilisis risus, hendrerit
+				aliquam ipsum. Cras sit amet dui eleifend, posuere odio non, sagittis
+				elit. Proin facilisis mauris id sapien tristique tristique. Aenean
+				ornare quam ac nisl venenatis, sed dapibus sapien mollis. Nunc dictum
+				odio id lacus tincidunt, quis ultrices mauris ultricies. Proin ligula
+				nisl, molestie eu est a, laoreet euismod lacus. Phasellus facilisis leo
+				at rutrum tincidunt. Curabitur in leo at felis efficitur mattis.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat
+				nulla ac turpis vulputate, in fringilla quam blandit. Curabitur eget
+				rutrum leo. Maecenas quis ex vel lacus consequat efficitur. Nullam
+				euismod sapien in sem ullamcorper feugiat. Curabitur leo nisl, finibus
+				sed porta id, sollicitudin sit amet magna. Nunc maximus, sem non
+				porttitor lacinia, lacus quam cursus neque, tincidunt ultricies ligula
+				velit quis risus. Fusce quis felis nec tortor aliquet aliquam et quis
+				lorem. Aliquam ac odio vestibulum, auctor ipsum quis, sagittis lorem.
+				Curabitur tortor purus, scelerisque at ultricies sed, consequat vitae
+				augue. Nulla dictum libero quis justo gravida, a blandit elit dignissim.
+				Pellentesque habitant morbi tristique senectus et netus et malesuada
+				fames ac turpis egestas. Donec id lacus ligula. In feugiat nulla sed
+				suscipit mattis. Integer dictum fringilla eros, vel euismod justo
+				consequat a. Morbi fringilla molestie dignissim. Integer lacinia dolor
+				at quam commodo, sed facilisis ex pharetra. Nullam elementum viverra
+				lectus id venenatis. Duis magna erat, accumsan at tincidunt mollis,
+				ultricies at velit. Curabitur varius neque ac volutpat aliquet.
+				Phasellus consectetur ipsum sed arcu mattis congue. Donec a euismod
+				metus. Nullam at dui sed enim congue tincidunt quis quis eros. In vitae
+				justo consequat metus sodales varius. Sed mauris odio, aliquet nec nibh
+				eu, imperdiet maximus turpis. Nullam at scelerisque enim, nec
+				pellentesque lorem. Mauris id luctus sapien. Duis posuere risus et quam
+				venenatis, at egestas lacus consectetur. Integer varius lorem in risus
+				posuere, id maximus orci aliquet. Sed magna augue, porta eget pulvinar
+				et, semper nec lectus. Suspendisse potenti. Maecenas varius sapien at
+				eros scelerisque, id maximus mi ultricies. Duis maximus orci urna.
+				Phasellus iaculis scelerisque vulputate. Interdum et malesuada fames ac
+				ante ipsum primis in faucibus. Etiam vitae facilisis risus, hendrerit
+				aliquam ipsum. Cras sit amet dui eleifend, posuere odio non, sagittis
+				elit. Proin facilisis mauris id sapien tristique tristique. Aenean
+				ornare quam ac nisl venenatis, sed dapibus sapien mollis. Nunc dictum
+				odio id lacus tincidunt, quis ultrices mauris ultricies. Proin ligula
+				nisl, molestie eu est a, laoreet euismod lacus. Phasellus facilisis leo
+				at rutrum tincidunt. Curabitur in leo at felis efficitur mattis.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat
+				nulla ac turpis vulputate, in fringilla quam blandit. Curabitur eget
+				rutrum leo. Maecenas quis ex vel lacus consequat efficitur. Nullam
+				euismod sapien in sem ullamcorper feugiat. Curabitur leo nisl, finibus
+				sed porta id, sollicitudin sit amet magna. Nunc maximus, sem non
+				porttitor lacinia, lacus quam cursus neque, tincidunt ultricies ligula
+				velit quis risus. Fusce quis felis nec tortor aliquet aliquam et quis
+				lorem. Aliquam ac odio vestibulum, auctor ipsum quis, sagittis lorem.
+				Curabitur tortor purus, scelerisque at ultricies sed, consequat vitae
+				augue. Nulla dictum libero quis justo gravida, a blandit elit dignissim.
+				Pellentesque habitant morbi tristique senectus et netus et malesuada
+				fames ac turpis egestas. Donec id lacus ligula. In feugiat nulla sed
+				suscipit mattis. Integer dictum fringilla eros, vel euismod justo
+				consequat a. Morbi fringilla molestie dignissim. Integer lacinia dolor
+				at quam commodo, sed facilisis ex pharetra. Nullam elementum viverra
+				lectus id venenatis. Duis magna erat, accumsan at tincidunt mollis,
+				ultricies at velit. Curabitur varius neque ac volutpat aliquet.
+				Phasellus consectetur ipsum sed arcu mattis congue. Donec a euismod
+				metus. Nullam at dui sed enim congue tincidunt quis quis eros. In vitae
+				justo consequat metus sodales varius. Sed mauris odio, aliquet nec nibh
+				eu, imperdiet maximus turpis. Nullam at scelerisque enim, nec
+				pellentesque lorem. Mauris id luctus sapien. Duis posuere risus et quam
+				venenatis, at egestas lacus consectetur. Integer varius lorem in risus
+				posuere, id maximus orci aliquet. Sed magna augue, porta eget pulvinar
+				et, semper nec lectus. Suspendisse potenti. Maecenas varius sapien at
+				eros scelerisque, id maximus mi ultricies. Duis maximus orci urna.
+				Phasellus iaculis scelerisque vulputate. Interdum et malesuada fames ac
+				ante ipsum primis in faucibus. Etiam vitae facilisis risus, hendrerit
+				aliquam ipsum. Cras sit amet dui eleifend, posuere odio non, sagittis
+				elit. Proin facilisis mauris id sapien tristique tristique. Aenean
+				ornare quam ac nisl venenatis, sed dapibus sapien mollis. Nunc dictum
+				odio id lacus tincidunt, quis ultrices mauris ultricies. Proin ligula
+				nisl, molestie eu est a, laoreet euismod lacus. Phasellus facilisis leo
+				at rutrum tincidunt. Curabitur in leo at felis efficitur mattis.
+			</p>
+		</div>
+	</div>
 </Layout>
+
+<style>
+	/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+	.flip-card {
+		background-color: transparent;
+		/* width: 300px;
+		height: 200px; */
+		perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	}
+
+	/* This container is needed to position the front and back side */
+	.flip-card-inner {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		transition: transform 0.8s;
+		transform-style: preserve-3d;
+	}
+
+	/* Do an horizontal flip when you move the mouse over the flip box container */
+	.flip-card:hover .flip-card-inner {
+		transform: rotateY(180deg);
+	}
+
+	/* Position the front and back side */
+	.flip-card-front,
+	.flip-card-back {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		-webkit-backface-visibility: hidden; /* Safari */
+		backface-visibility: hidden;
+	}
+
+	/* Style the back side */
+	.flip-card-back {
+		transform: rotateY(180deg);
+	}
+</style>
