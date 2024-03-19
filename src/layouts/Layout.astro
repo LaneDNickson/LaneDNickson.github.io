@@ -10,6 +10,9 @@ const {
 	description = "Lane Nickson's Website",
 	image = "/images/lane.png",
 } = Astro.props;
+
+import "@fontsource/ibm-plex-mono";
+import BusinessCard from "../components/BusinessCard.astro";
 ---
 
 <!doctype html>
@@ -22,9 +25,18 @@ const {
 		<meta name="generator" content={Astro.generator} />
 		<meta property="og:image" content={image} />
 		<title>{title}</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	</head>
 	<body class="min-h-screen">
-		<slot />
+		<div
+			id="container"
+			class="p-5 flex flex-col justify-center items-center min-h-screen gap-12"
+		>
+			<BusinessCard />
+			<slot />
+		</div>
 	</body>
 </html>
 
