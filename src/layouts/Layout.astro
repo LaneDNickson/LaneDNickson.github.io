@@ -1,0 +1,67 @@
+---
+interface Props {
+	title: string;
+	description?: string;
+	image?: string;
+}
+
+const {
+	title,
+	description = "Lane Nickson's Website",
+	image = "/images/lane.png",
+} = Astro.props;
+
+import "@fontsource/ibm-plex-mono";
+import BusinessCard from "../components/BusinessCard.astro";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<meta property="og:image" content={image} />
+		<title>{title}</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	</head>
+	<body class="min-h-screen">
+		<div
+			id="container"
+			class="p-5 flex flex-col justify-center items-center min-h-screen gap-12"
+		>
+			<BusinessCard />
+			<slot />
+		</div>
+	</body>
+</html>
+
+<style>
+	body {
+		background: hsla(267, 62%, 46%, 1);
+
+		background: linear-gradient(
+			315deg,
+			hsla(267, 62%, 46%, 1) 0%,
+			hsla(37, 100%, 64%, 1) 100%
+		);
+
+		background: -moz-linear-gradient(
+			315deg,
+			hsla(267, 62%, 46%, 1) 0%,
+			hsla(37, 100%, 64%, 1) 100%
+		);
+
+		background: -webkit-linear-gradient(
+			315deg,
+			hsla(267, 62%, 46%, 1) 0%,
+			hsla(37, 100%, 64%, 1) 100%
+		);
+
+		filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6F2DBD", endColorstr="#FFBA49", GradientType=1 );
+	}
+</style>
